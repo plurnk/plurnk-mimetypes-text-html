@@ -1,3 +1,5 @@
+> **ABSORBED into the plurnk platform monorepo** — code, history, and issues now live in [`plurnk/plurnk-service`](https://github.com/plurnk/plurnk-service) under `plurnk-mimetypes-text-html/`. This repo is an archived snapshot.
+
 # @plurnk/plurnk-mimetypes-text-html
 
 `text/html` AND `application/xhtml+xml` mimetype handler for the [plurnk](https://github.com/plurnk) ecosystem. Two faces: **structural** extraction via [parse5](https://www.npmjs.com/package/parse5) (symbols, deep-json/deep-xml, real-DOM xpath via [@xmldom/xmldom](https://www.npmjs.com/package/@xmldom/xmldom) + [xpath](https://www.npmjs.com/package/xpath)) and **readable** projection — the page's main content as clean reading markdown via [@mozilla/readability](https://www.npmjs.com/package/@mozilla/readability) + [turndown](https://www.npmjs.com/package/turndown) over a [linkedom](https://www.npmjs.com/package/linkedom) DOM.
